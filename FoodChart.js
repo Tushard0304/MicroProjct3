@@ -76,7 +76,7 @@ console.log(HighProContent());
 // Functioin for listing all the food items with lowest carb content to highest
 
 function LowCarbContent() {
-    return data.sort((a, b) => a.protiens - b.protiens)
+    return data.sort((a, b) => a.cab - b.cab)
 }
 console.log(LowCarbContent());
 
